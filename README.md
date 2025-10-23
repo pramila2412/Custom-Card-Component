@@ -54,6 +54,5 @@ CUSTOM-CARD/
 npm install
 
 ## Run the project
-npm run dev
+npm run dev(Local Environment)
 
-## Then open the app in your browser (usually at http://localhost:5173)
