@@ -21,33 +21,35 @@ The goal was to create a simple **Custom Card Component** that can be dragged an
 ---
 
 ## 📁 Project Structure
-CUSTOM-CARD/
-├── public/
-│ ├── card-demo.html
-│ ├── vite.svg
-│ └── working-demo.html
-│
-├── src/
-│ ├── assets/
-│ │ └── react.svg
-│ │
-│ ├── components/
-│ │ └── GrapesJSCardBuilder.jsx # GrapesJS setup + custom card registration
-│ │
-│ ├── styles/
-│ │ ├── card.css # Card styling
-│ │ └── editor.css # Editor styling
-│ │
-│ ├── App.css
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
-│
-├── index.html
-├── package.json
-├── vite.config.js
-├── eslint.config.js
-└── README.md
++-- CUSTOM-CARD
+|   +-- public
+|   |   +-- card-demo.html              // Demo page for card component
+|   |   +-- working-demo.html           // Working example of GrapesJS editor
+|   |   +-- vite.svg                    // Default Vite icon
+|   |
+|   +-- src
+|   |   +-- assets
+|   |   |   +-- react.svg               // React logo asset
+|   |   |
+|   |   +-- components
+|   |   |   +-- GrapesJSCardBuilder.jsx // Main GrapesJS integration + custom card setup
+|   |   |
+|   |   +-- styles
+|   |   |   +-- card.css                // Styling for custom card
+|   |   |   +-- editor.css              // Styling for GrapesJS editor area
+|   |   |
+|   |   +-- App.css
+|   |   +-- App.jsx                     // Main app component
+|   |   +-- index.css
+|   |   +-- main.jsx                    // Entry point for Vite
+|   |
+|   +-- index.html                      // Root HTML file
+|   +-- package.json                    // Project dependencies and scripts
+|   +-- vite.config.js                  // Vite configuration
+|   +-- eslint.config.js                // ESLint configuration
+|   +-- .gitignore                      // Git ignore rules
+|   +-- README.md                       // Project documentation
+
 
 
 ## Install dependencies
