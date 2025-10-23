@@ -74,12 +74,6 @@ Then open your browser at:
 
 ---
 
-## 🖼️ Demo Preview
-
-If you’ve added demo files like `card-demo.html` or `working-demo.html`, you can open them directly from the `public/` folder to preview saved templates.
-
----
-
 ## 🧑‍💻 Tech Stack
 
 - React + Vite  
